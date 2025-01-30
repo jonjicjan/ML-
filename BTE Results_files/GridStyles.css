@@ -1,0 +1,72 @@
+﻿.mydatagrid
+{
+	width: 80%;
+	border: inset;
+	min-width: 80%;
+}
+.header
+{
+	background-color: #6a6a6a;
+	font-family: Arial;
+	color: White;
+	height: 10px;
+	text-align: center;
+	font-size: 12px;
+	font-weight :bold ;
+}
+
+.rows
+{
+	background-color: #fff;
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000;
+	min-height: 10px;
+	text-align: left;
+}
+.rows:hover
+{
+	background-color: #fadd7a;
+	color: #000;
+}
+
+.mydatagrid a /** FOR THE PAGING ICONS  **/
+{
+	background-color: Transparent;
+	padding:  5px 5px 5px 5px;
+	color:  Green; /**#fff;**/
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.mydatagrid a:hover /** FOR THE PAGING ICONS  HOVER STYLES**/
+{
+	background-color: yellow;
+	color: red;
+}
+.mydatagrid span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/
+{
+	
+	padding: 5px 5px 5px 5px;
+	background-color: red;
+	color: Green; /** #fff; */
+	border: inset;
+}
+.pager
+{
+	background-color: #fadd7a;
+	font-family: Arial;
+	color: Green; /** White; */
+	height: 20px;
+	text-align: left;
+}
+
+.mydatagrid td
+{
+	padding:  0px 0px 0px 5px;
+}
+.mydatagrid th
+{
+	padding: 0px 0px 0px 5px;
+}
+
