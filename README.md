@@ -1,81 +1,62 @@
-Weather App
+# Weather App
 
-Overview
+## Overview
+This is a simple weather application built using **React**. It allows users to search for the weather conditions of any city and displays details such as temperature, humidity, wind speed, and more.
 
-This is a simple weather application built using React. It allows users to search for the weather conditions of any city and displays details such as temperature, humidity, wind speed, and more.
+## Features
+- Search for weather by city name.
+- Display current weather conditions including:
+  - Temperature
+  - Weather description
+  - Feels-like temperature
+  - Humidity
+  - Wind speed
+- User-friendly interface with a clean and modern design.
+- Responsive layout for mobile and desktop views.
 
-Features
+## Technologies Used
+- **React.js** (Frontend framework)
+- **OpenWeather API** (Weather data provider)
+- **Tailwind CSS** (Styling)
+- **Lucide React** (Icons)
 
-Search for weather by city name.
+## Installation
 
-Display current weather conditions including:
-
-Temperature
-
-Weather description
-
-Feels-like temperature
-
-Humidity
-
-Wind speed
-
-User-friendly interface with a clean and modern design.
-
-Responsive layout for mobile and desktop views.
-
-Technologies Used
-
-React.js (Frontend framework)
-
-OpenWeather API (Weather data provider)
-
-Tailwind CSS (Styling)
-
-Lucide React (Icons)
-
-Installation
-
-Prerequisites
-
+### Prerequisites
 Ensure you have the following installed:
+- **Node.js** (v14 or later)
+- **npm** or **yarn**
 
-Node.js (v14 or later)
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/weather-app.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd weather-app
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+4. Get an API key from [OpenWeather](https://openweathermap.org/api).
+5. Create a `.env` file in the root directory and add your API key:
+   ```
+   REACT_APP_WEATHER_API_KEY=your_api_key_here
+   ```
+6. Start the development server:
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+7. Open the app in your browser at `http://localhost:3000`.
 
-npm or yarn
-
-Steps
-
-Clone the repository:
-
-git clone https://github.com/your-username/weather-app.git
-
-Navigate to the project folder:
-
-cd weather-app
-
-Install dependencies:
-
-npm install
-# or
-yarn install
-
-Get an API key from OpenWeather.
-
-Create a .env file in the root directory and add your API key:
-
-REACT_APP_WEATHER_API_KEY=your_api_key_here
-
-Start the development server:
-
-npm start
-# or
-yarn start
-
-Open the app in your browser at http://localhost:3000.
-
-Project Structure
-
+## Project Structure
+```
 /weather-app
 │── src
 │   │── components
@@ -88,38 +69,31 @@ Project Structure
 │── .env              # Environment variables
 │── package.json      # Project dependencies
 │── README.md         # Documentation
+```
 
-Usage
+## Usage
+1. Enter a city name in the search bar.
+2. Press **Enter** or click the search button.
+3. View the current weather details.
 
-Enter a city name in the search bar.
-
-Press Enter or click the search button.
-
-View the current weather details.
-
-Screenshots
-
+## Screenshots
 (Add screenshots of the app here if available)
 
-Deployment
-
-You can deploy this app using Vercel, Netlify, or any hosting service that supports React applications.
+## Deployment
+You can deploy this app using **Vercel**, **Netlify**, or any hosting service that supports React applications.
 
 Example deployment on Vercel:
-
+```bash
 vercel
+```
 
-License
-
+## License
 This project is licensed under the MIT License.
 
-Contact
-
+## Contact
 For any questions or suggestions, feel free to reach out:
-
-Email: your-email@example.com
-
-GitHub: your-username
+- **Email:** your-email@example.com
+- **GitHub:** [your-username](https://github.com/your-username)
 
 Happy Coding! 🚀
 
